@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website 3</title>
     <link rel="stylesheet" href="bootstrap-5.0.0-beta1-dist/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="container">
@@ -34,11 +35,11 @@
               </div>
             </div>
           </nav>
-          <section class="mt-5">
+          <section class="bg-color">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <div class="row align-items-center">
+                    <div class="row banner-items">
                         <div class="col-md-7">
                             <h1>Mega LCD TV for sports</h1>
                             <p>This is the best in the world for people who just want to waste time in front of tv</p>
@@ -51,7 +52,7 @@
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <div class="row">
+                    <div class="row banner-items">
                         <div class="col-md-7">
                             <h1>Cool Dude Headphone</h1>
                             <p>This is the best headphone in the world for people who just want to waste time in</p>
@@ -64,8 +65,15 @@
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-7"></div>
+                    <div class="row banner-items">
+                        <div class="col-md-7">
+                            <h1>X-box for your Living Room</h1>
+                            <p>
+                                This is the best x-box in the world for people who just want to waste time in front
+                            </p>
+                            <h1>$600</h1>
+                            <button type="button" class="btn btn-primary">Buy Now</button>
+                        </div>
                         <div class="col-md-5">
                             <img src="images/xbox.png" class="d-block w-100" alt="...">
                         </div>
@@ -83,28 +91,104 @@
               </div>
           </section>
     </header>
-    <main>
-        <section class="container px-4 mt-5">
+    <main class="container">
+        <section class="container px-4 mt-5 margin">
             <div class="row gx-5">
               <div class="col">
-               <div class="p-3 border bg-warning d-flex align-items-center justify-content-around rounded-3 h-50">
+               <div class="p-3 border bg-warning d-flex align-items-center justify-content-around rounded-3 img-h">
                    <h1 class="text-white">Watch</h1>
-                   <img class="h-100" src="images/watch.png" alt="">
+                   <img class="img-h" src="images/watch.png" alt="">
                </div>
               </div>
               <div class="col">
-                <div class="p-3 border bg-success d-flex align-items-center justify-content-around rounded-3 h-50">
+                <div class="p-3 border bg-success d-flex align-items-center justify-content-around rounded-3 img-h">
                     <h1 class="text-white">Bag</h1>
-                    <img class="h-100" src="images/bag.png" alt="">
+                    <img class="img-h" src="images/bag.png" alt="">
                 </div>
               </div>
               <div class="col">
-                <div class="p-3 border bg-primary d-flex align-items-center justify-content-around rounded-3 h-50">
+                <div class="p-3 border bg-primary d-flex align-items-center justify-content-around rounded-3 img-h">
                     <h1 class="text-white">Shoe</h1>
-                    <img class="h-100" src="images/shoes.png" alt="">
+                    <img class="img-h" src="images/shoes.png" alt="">
                 </div>
               </div>
             </div>
+        </section>
+        <section>
+            <h1>Shoes</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100 shadow">
+                    <img src="images/shoe-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Supply 350</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                      <h2>$120</h2>
+                      <button type="button" class="btn btn-success">Buy Now >></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow">
+                    <img src="images/shoe-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Nike 360</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      <h2>$320</h2>
+                      <button type="button" class="btn btn-success">Buy Now >></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow">
+                    <img src="images/shoe-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Red Airmax</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.</p>
+                      <h2>$350</h2>
+                      <button type="button" class="btn btn-success">Buy Now >></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section class="margin">
+            <h1>Backpacks</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100 shadow">
+                    <img src="images/bag-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Red Laltu Bag</h5>
+                      <h2>$120</h2>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <button type="button" class="btn btn-success">Buy Now >></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow">
+                    <img src="images/bag-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Blue Niltu Bag</h5>
+                      <h2>$320</h2>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      <button type="button" class="btn btn-success">Buy Now >></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow">
+                    <img src="images/bag-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Black Kaltu Bag</h5>
+                      <h2>$350</h2>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      <button type="button" class="btn btn-success">Buy Now >></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </section>
     </main>
     <script src="bootstrap-5.0.0-beta1-dist/bootstrap-5.0.0-beta1-dist/js/bootstrap.min.js"></script>

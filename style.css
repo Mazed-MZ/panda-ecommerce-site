@@ -1,0 +1,14 @@
+.bg-color{
+    background-color: papayawhip;
+}
+.banner-items{
+    align-items: center;
+    margin-left: 10px;
+}
+.img-h{
+    height: 100px;
+}
+.margin{
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
